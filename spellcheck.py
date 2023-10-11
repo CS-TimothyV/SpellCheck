@@ -46,7 +46,7 @@ def wordSearch(dictionary, algorithm):
 
 
 def aliceSearch(dictionary, aliceWords, algorithm):
-    print("\nLinear Search is starting...\n")
+    print("\nSearch is starting...\n")
     notFound = 0
     length = len(aliceWords)
 
