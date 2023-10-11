@@ -32,7 +32,7 @@ def main():
 
 def wordSearch(dictionary, algorithm):
     searchString = input("Please enter a word: ").lower()
-    print("\nLinear Search is starting...")
+    print("\nSearch is starting...")
 
     start = getTime()
     result = algorithm(dictionary, searchString)
